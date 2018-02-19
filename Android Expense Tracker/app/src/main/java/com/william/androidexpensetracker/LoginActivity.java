@@ -20,6 +20,6 @@ public class LoginActivity extends AppCompatActivity {
 
     @OnClick(R.id.btnSignUp)
     void btnSignUpAction(){
-        
+
     }
 }
