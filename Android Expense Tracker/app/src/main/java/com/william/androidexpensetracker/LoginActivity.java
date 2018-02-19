@@ -22,6 +22,6 @@ public class LoginActivity extends AppCompatActivity {
     @OnClick(R.id.btnSignUp)
     void btnSignUpAction(){
         Intent it = new Intent(LoginActivity.this,RegisterActivity.class);
-        MainActivity.this.startActivity(it);
+        LoginActivity.this.startActivity(it);
     }
 }
