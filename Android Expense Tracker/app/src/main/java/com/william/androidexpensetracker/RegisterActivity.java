@@ -13,8 +13,7 @@ import butterknife.OnClick;
  */
 
 public class RegisterActivity extends AppCompatActivity{
-    @BindView(R.id.txtFirstName) EditText txtFirstName;
-    @BindView(R.id.txtLastName) EditText txtLastName;
+    @BindView(R.id.txtEmail) EditText txtEmail;
     @BindView(R.id.txtUsernameRegis) EditText txtUsernameRegis;
     @BindView(R.id.txtPasswordRegis) EditText txtPasswordRegis;
     @BindView(R.id.txtExpenseMonthly) EditText txtExpenseMonthly;
@@ -29,11 +28,10 @@ public class RegisterActivity extends AppCompatActivity{
 
     @OnClick(R.id.btnRegister)
     public void register(){
-        String firstName = txtFirstName.getText().toString();
-        String lastName = txtLastName.getText().toString();
-        String userName = txtUsernameRegis.getText().toString();
-        String pswd =txtPasswordRegis.getText().toString();
-        String expenseMonthly = txtExpenseMonthly.getText().toString();
+        String email = txtEmail.getText().toString().trim();
+        String userName = txtUsernameRegis.getText().toString().trim();
+        String pswd =txtPasswordRegis.getText().toString().trim();
+        String expenseMonthly = txtExpenseMonthly.getText().toString().trim();
 
 
     }

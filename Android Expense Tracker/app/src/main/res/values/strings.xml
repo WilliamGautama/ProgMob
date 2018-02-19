@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">Android Expense Tracker</string>
+    <!--String for login view-->
+    <string name="title_activity_login">Login Sign In</string>
     <string name="label_username">Username</string>
-    <string name="label_first_name">First Name</string>
-    <string name="label_last_name">Last Name</string>
-    <string name="label_expense_monthly">Expense Monthly</string>
     <string name="label_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_up">Sign up</string>
-    <string name="action_register">Register</string>
     <string name="action_forgot_password">Forgot Password?</string>
+
+    <!--String for register view-->
+    <string name="title_activity_register">Register</string>
+    <string name="label_username_regis">Username</string>
+    <string name="label_password_regis">Password</string>
+    <string name="label_email">Email</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_expense_monthly">Expense Monthly</string>
+    <string name="action_register">Register</string>
+    <!--String for main view-->
+    <string name="title_activity_main">Main Menu</string>
+
 </resources>

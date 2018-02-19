@@ -9,27 +9,19 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/txtFirstName"
+        android:id="@+id/txtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/label_first_name"/>
-
-    <EditText
-        android:id="@+id/txtLastName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="@string/label_last_name"/>
+        android:inputType="textEmailAddress"
+        android:hint="@string/label_email"/>
 
     <EditText
         android:id="@+id/txtUsernameRegis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/label_username"
+        android:hint="@string/label_username_regis"
         android:inputType="text" />
 
     <EditText
@@ -37,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/label_password"
+        android:hint="@string/label_password_regis"
         android:inputType="textPassword" />
 
     <EditText
